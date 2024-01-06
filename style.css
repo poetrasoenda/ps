@@ -151,3 +151,31 @@ button:hover{
         max-width: 400px;
     }
 }
+
+@media screen and (max-width: 718px) {
+    .logo{
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+    }
+    li.nav-link{
+        font-size: 13px;
+        display: inline;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 15px;
+    }
+    .main h2{
+        font-size: 28px;
+        margin-top: -25px;
+    }
+    .main p{
+        font-size: 15px;
+    }
+    button{
+        font-size: 13px;
+    }
+    .image-wrapper img{
+        max-width: 400px;
+    }
+}
